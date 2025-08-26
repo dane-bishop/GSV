@@ -1,0 +1,1426 @@
+[
+    {
+    "name": "Affton",
+    "isFavorite": true,
+    "location": "Affton",
+    "yearFounded": "1930",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "AHS",
+    "index": 0
+    },
+    {
+    "name": "Althoff Catholic",
+    "isFavorite": true,
+    "location": "Althoff",
+    "yearFounded": "1964",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "ACHS",
+    "index": 1
+    },
+    {
+    "name": "Alton",
+    "location": "Alton",
+    "yearFounded": "1902",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "AHS",
+    "index": 2
+    },
+    {
+    "name": "Alton Marquette",
+    "location": "Alton",
+    "yearFounded": "1927",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "AMHS",
+    "index": 3
+    },
+    {
+    "name": "Barat",
+    "location": "Chesterfield",
+    "yearFounded": "2007",
+    "state": "MO",
+    "isClosed": true,
+    "schoolSuffix": "academy",
+    "schoolAbbr": "BA",
+    "index": 4
+    },
+    {
+    "name": "Bayless",
+    "location": "St. Louis",
+    "yearFounded": "1868",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "BHS",
+    "index": 5
+    },
+    {
+    "name": "Belleville East",
+    "location": "Belleville",
+    "yearFounded": "1966",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "BEHS",
+    "index": 6
+    },
+    {
+    "name": "Belleville West",
+    "location": "Belleville",
+    "yearFounded": "1916",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "BWHS",
+    "index": 7
+    },
+    {
+    "name": "Borgia",
+    "location": "Washington",
+    "yearFounded": "1901",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SFB",
+    "index": 8
+    },
+    {
+    "name": "Breese Central",
+    "location": "Breese",
+    "yearFounded": "1971",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "BCHS",
+    "index": 9
+    },
+    {
+    "name": "Brentwood",
+    "location": "Brentwood",
+    "yearFounded": "1927",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "BHS",
+    "index": 10
+    },
+    {
+    "name": "Cahokia",
+    "location": "Cahokia Heights",
+    "yearFounded": "1952",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CHS",
+    "index": 11
+    },
+    {
+    "name": "Cardinal Ritter",
+    "location": "St. Louis",
+    "yearFounded": "1979",
+    "state": "MO",
+    "schoolSuffix": "collegePreparatory",
+    "schoolAbbr": "CRCP",
+    "index": 12
+    },
+    {
+    "name": "Carlyle",
+    "location": "Carlyle",
+    "yearFounded": "",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CHS",
+    "index": 13
+    },
+    {
+    "name": "Carnahan",
+    "location": "St. Louis",
+    "yearFounded": "2006",
+    "state": "MO",
+    "isClosed": true,
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CHS",
+    "index": 14
+    },
+    {
+    "name": "CBC",
+    "location": "St. Louis",
+    "yearFounded": "1850",
+    "state": "MO",
+    "schoolSuffix": "none",
+    "schoolAbbr": "CBC",
+    "index": 15
+    },
+    {
+    "name": "Chaminade",
+    "location": "Frontenac",
+    "yearFounded": "1910",
+    "state": "MO",
+    "schoolSuffix": "collegePreparatory",
+    "schoolAbbr": "CCP",
+    "index": 16
+    },
+    {
+    "name": "Civic Memorial",
+    "location": "Bethalto",
+    "yearFounded": "1951",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CMHS",
+    "index": 17
+    },
+    {
+    "name": "Clayton",
+    "location": "Clayton",
+    "yearFounded": "1908",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CHS",
+    "index": 18
+    },
+    {
+    "name": "Cleveland",
+    "location": "St. Louis",
+    "yearFounded": "1915",
+    "state": "MO",
+    "isClosed": true,
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CHS",
+    "index": 19
+    },
+    {
+    "name": "Collinsville",
+    "location": "Collinsville",
+    "yearFounded": "1908",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CHS",
+    "index": 20
+    },
+    {
+    "name": "Columbia",
+    "location": "Columbia",
+    "yearFounded": "1876",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CHS",
+    "index": 21
+    },
+    {
+    "name": "Cor Jesu",
+    "location": "St. Louis",
+    "yearFounded": "1956",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CJ",
+    "index": 22
+    },
+    {
+    "name": "Crossroads",
+    "location": "St. Louis",
+    "yearFounded": "1974",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CP",
+    "index": 23
+    },
+    {
+    "name": "Crystal City",
+    "location": "Crystal City",
+    "yearFounded": "",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "CCHS",
+    "index": 24
+    },
+    {
+    "name": "De Soto",
+    "location": "De Soto",
+    "yearFounded": "1882",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "DSHS",
+    "index": 25
+    },
+    {
+    "name": "De Smet",
+    "location": "Creve Coeur",
+    "yearFounded": "1967",
+    "state": "MO",
+    "schoolSuffix": "jesuit",
+    "schoolAbbr": "DS",
+    "index": 26
+    },
+    {
+    "name": "DuBourg",
+    "location": "St. Louis",
+    "yearFounded": "1950",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "BD",
+    "index": 27
+    },
+    {
+    "name": "Duchesne",
+    "location": "St. Charles",
+    "yearFounded": "1956",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "DHS",
+    "index": 28
+    },
+    {
+    "name": "Dupo",
+    "location": "Dupo",
+    "yearFounded": "",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "DHS",
+    "index": 29
+    },
+    {
+    "name": "East St. Louis",
+    "location": "East St. Louis",
+    "yearFounded": "1865",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "ESL",
+    "index": 30
+    },
+    {
+    "name": "Edwardsville",
+    "location": "Edwardsville",
+    "yearFounded": "1910",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "EHS",
+    "index": 31
+    },
+    {
+    "name": "Eureka",
+    "location": "Eureka",
+    "yearFounded": "1908",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "EHS",
+    "index": 32
+    },
+    {
+    "name": "Festus",
+    "location": "Festus",
+    "yearFounded": "1901",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "FHS",
+    "index": 33
+    },
+    {
+    "name": "Fort Zumwalt East",
+    "location": "St. Peters",
+    "yearFounded": "2007",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "FZE",
+    "index": 34
+    },
+    {
+    "name": "Fort Zumwalt North",
+    "location": "O'Fallon",
+    "yearFounded": "1960",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "FZN",
+    "index": 35
+    },
+    {
+    "name": "Fort Zumwalt South",
+    "location": "O'Fallon",
+    "yearFounded": "1987",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "FZS",
+    "index": 36
+    },
+    {
+    "name": "Fort Zumwalt West",
+    "location": "O'Fallon",
+    "yearFounded": "1998",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "FZW",
+    "index": 37
+    },
+    {
+    "name": "Fox",
+    "location": "Arnold",
+    "yearFounded": "1955",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "FHS",
+    "index": 38
+    },
+    {
+    "name": "Francis Howell",
+    "location": "St. Charles",
+    "yearFounded": "1881",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "FHHS",
+    "index": 39
+    },
+    {
+    "name": "Francis Howell Central",
+    "location": "Cottleville",
+    "yearFounded": "1997",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "FHC",
+    "index": 40
+    },
+    {
+    "name": "Francis Howell North",
+    "location": "St. Charles",
+    "yearFounded": "1983",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "FHN",
+    "index": 41
+    },
+    {
+    "name": "Freeburg",
+    "location": "Freeburg",
+    "yearFounded": "1904",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "FHS",
+    "index": 42
+    },
+    {
+    "name": "Gateway STEM",
+    "location": "St. Louis",
+    "yearFounded": "2012",
+    "state": "MO",
+    "schoolSuffix": "none",
+    "schoolAbbr": "STEM",
+    "index": 43
+    },
+    {
+    "name": "Gibault",
+    "location": "Waterloo",
+    "yearFounded": "1966",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "GHS",
+    "index": 44
+    },
+    {
+    "name": "Gillespie",
+    "location": "Gillespie",
+    "yearFounded": "",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "GHS",
+    "index": 45
+    },
+    {
+    "name": "Grandview",
+    "location": "Grandview",
+    "yearFounded": "1980",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "GHS",
+    "index": 46
+    },
+    {
+    "name": "Greenville IL",
+    "location": "Greenville",
+    "yearFounded": "1869",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "GHS",
+    "index": 47
+    },
+    {
+    "name": "Hancock",
+    "location": "St. Louis",
+    "yearFounded": "1926",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "HHS",
+    "index": 48
+    },
+    {
+    "name": "Hazelwood East",
+    "location": "St. Louis",
+    "yearFounded": "1974",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "HEHS",
+    "index": 49
+    },
+    {
+    "name": "Hazelwood West",
+    "location": "St. Louis",
+    "yearFounded": "1974",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "HWHS",
+    "index": 50
+    },
+    {
+    "name": "Hazelwood Central",
+    "location": "Florissant",
+    "yearFounded": "1954",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "HCHS",
+    "index": 51
+    },
+    {
+    "name": "Herculaneum",
+    "location": "Herculaneum",
+    "yearFounded": "1915",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "HHS",
+    "index": 52
+    },
+    {
+    "name": "Hermann",
+    "location": "Hermann",
+    "yearFounded": "2000",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "HHS",
+    "index": 53
+    },
+    {
+    "name": "Highland IL",
+    "location": "Highland",
+    "yearFounded": "1894",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "HHS",
+    "index": 54
+    },
+    {
+    "name": "Hillsboro MO",
+    "location": "Hillsboro",
+    "yearFounded": "~1924",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "HHS",
+    "index": 55
+    },
+    {
+    "name": "Holt",
+    "location": "Wentzville",
+    "yearFounded": "1896",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "HHS",
+    "index": 56
+    },
+    {
+    "name": "Incarnate Word",
+    "location": "Normandy",
+    "yearFounded": "1932",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "IWA",
+    "index": 57
+    },
+    {
+    "name": "Jennings",
+    "location": "Jennings",
+    "yearFounded": "1871",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "JHS",
+    "index": 58
+    },
+    {
+    "name": "Jerseyville",
+    "location": "Jerseyville",
+    "yearFounded": "1874",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "JHS",
+    "index": 59
+    },
+    {
+    "name": "Jefferson",
+    "location": "Conception Junction",
+    "yearFounded": "",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "JHS",
+    "index": 60
+    },
+    {
+    "name": "John Burroughs",
+    "location": "St. Louis",
+    "yearFounded": "1923",
+    "state": "MO",
+    "schoolSuffix": "school",
+    "schoolAbbr": "JBS",
+    "index": 61
+    },
+    {
+    "name": "Kennedy",
+    "location": "Manchester",
+    "yearFounded": "1968",
+    "state": "MO",
+    "isClosed": true,
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "KHS",
+    "index": 62
+    },
+    {
+    "name": "Kirkwood",
+    "location": "Kirkwood",
+    "yearFounded": "1896",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "KHS",
+    "index": 63
+    },
+    {
+    "name": "Ladue",
+    "location": "Ladue",
+    "yearFounded": "1952",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "LHS",
+    "index": 64
+    },
+    {
+    "name": "Lafayette",
+    "location": "Wildwood",
+    "yearFounded": "1960",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "LHS",
+    "index": 65
+    },
+    {
+    "name": "Lebanon IL",
+    "location": "Lebanon",
+    "yearFounded": "",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "LHS",
+    "index": 66
+    },
+    {
+    "name": "Liberty",
+    "location": "Lake St. Louis",
+    "yearFounded": "2013",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "LHS",
+    "index": 67
+    },
+    {
+    "name": "Lindbergh",
+    "location": "St. Louis",
+    "yearFounded": "1951",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "LHS",
+    "index": 68
+    },
+    {
+    "name": "Lovejoy",
+    "location": "Brooklyn",
+    "yearFounded": "",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "LHS",
+    "index": 69
+    },
+    {
+    "name": "Lutheran North",
+    "location": "St. Louis",
+    "yearFounded": "1964",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "LNHS",
+    "index": 70
+    },
+    {
+    "name": "Lutheran St. Charles",
+    "location": "St. Peters",
+    "yearFounded": "1982",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "LHS",
+    "index": 71
+    },
+    {
+    "name": "Lutheran South",
+    "location": "St. Louis",
+    "yearFounded": "1957",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "LSHS",
+    "index": 72
+    },
+    {
+    "name": "Madison IL",
+    "location": "Madison",
+    "yearFounded": "1903",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "MHS",
+    "index": 73
+    },
+    {
+    "name": "Maplewood-RH",
+    "location": "Maplewood",
+    "yearFounded": "1929",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "MRHS",
+    "index": 74
+    },
+    {
+    "name": "Marissa",
+    "location": "Marissa",
+    "yearFounded": "1900",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "MHS",
+    "index": 75
+    },
+    {
+    "name": "Marquette",
+    "location": "Chesterfield",
+    "yearFounded": "1993",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "MHS",
+    "index": 76
+    },
+    {
+    "name": "Mascoutah",
+    "location": "Mascoutah",
+    "yearFounded": "1952",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "MHS",
+    "index": 77
+    },
+    {
+    "name": "Mater Dei",
+    "location": "Breese",
+    "yearFounded": "1954",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "MDHS",
+    "index": 78
+    },
+    {
+    "name": "McCluer",
+    "location": "Florissant",
+    "yearFounded": "1957",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "MHS",
+    "index": 79
+    },
+    {
+    "name": "McCluer North",
+    "location": "Florissant",
+    "yearFounded": "1971",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "MNHS",
+    "index": 80
+    },
+    {
+    "name": "McCluer South Berkeley STEAM",
+    "location": "Ferguson",
+    "yearFounded": "2004",
+    "state": "MO",
+    "schoolSuffix": "none",
+    "schoolAbbr": "STEAM",
+    "index": 81
+    },
+    {
+    "name": "Mehlville",
+    "location": "Mehlville",
+    "yearFounded": "1925",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "MHS",
+    "index": 82
+    },
+    {
+    "name": "Metro East Lutheran",
+    "location": "Edwardsville",
+    "yearFounded": "1977",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "MEL",
+    "index": 83
+    },
+    {
+    "name": "MICDS",
+    "location": "St. Louis",
+    "yearFounded": "1859",
+    "state": "MO",
+    "schoolSuffix": "none",
+    "schoolAbbr": "MICDS",
+    "index": 84
+    },
+    {
+    "name": "Miller Career",
+    "location": "St. Louis",
+    "yearFounded": "",
+    "state": "MO",
+    "schoolSuffix": "academy",
+    "schoolAbbr": "MCA",
+    "index": 85
+    },
+    {
+    "name": "Nashville",
+    "location": "Nashville",
+    "yearFounded": "1954",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "NHS",
+    "index": 86
+    },
+    {
+    "name": "Nerinx Hall",
+    "location": "Webster Groves",
+    "yearFounded": "1924",
+    "state": "MO",
+    "schoolSuffix": "academy",
+    "schoolAbbr": "NHA",
+    "index": 87
+    },
+    {
+    "name": "New Haven",
+    "location": "New Haven",
+    "yearFounded": "1903",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "NH",
+    "index": 88
+    },
+    {
+    "name": "Normandy",
+    "location": "St. Louis",
+    "yearFounded": "1923",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "NOR",
+    "index": 89
+    },
+    {
+    "name": "North Tech",
+    "location": "St. Louis",
+    "yearFounded": "",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "NT",
+    "index": 90
+    },
+    {
+    "name": "Northwest",
+    "location": "St. Louis",
+    "yearFounded": "1964",
+    "state": "MO",
+    "isClosed": true,
+    "schoolSuffix": "academy",
+    "schoolAbbr": "NWA",
+    "index": 91
+    },
+    {
+    "name": "Northwest Cedar Hill",
+    "location": "Cedar Hill",
+    "yearFounded": "1955",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "NWCH",
+    "index": 92
+    },
+    {
+    "name": "Notre Dame",
+    "location": "St. Louis",
+    "yearFounded": "1934",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "ND",
+    "index": 93
+    },
+    {
+    "name": "O'Fallon Township",
+    "location": "O'Fallon",
+    "yearFounded": "1901",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "OFT",
+    "index": 94
+    },
+    {
+    "name": "Oakville",
+    "location": "Oakville",
+    "yearFounded": "1970",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "OAK",
+    "index": 95
+    },
+    {
+    "name": "Okawville",
+    "location": "Okawviille",
+    "yearFounded": "",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "OKA",
+    "index": 96
+    },
+    {
+    "name": "Orchard Farm",
+    "location": "St. Charles",
+    "yearFounded": "1959",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "OF",
+    "index": 97
+    },
+    {
+    "name": "Owensville",
+    "location": "Owensville",
+    "yearFounded": "",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "OWEN",
+    "index": 98
+    },
+    {
+    "name": "Pacific",
+    "location": "Pacific",
+    "yearFounded": "",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "PAC",
+    "index": 99
+    },
+    {
+    "name": "Parkway Central",
+    "location": "Chesterfield",
+    "yearFounded": "1954",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "PCH",
+    "index": 100
+    },
+    {
+    "name": "Parkway North",
+    "location": "St. Louis",
+    "yearFounded": "1971",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "PNH",
+    "index": 101
+    },
+    {
+    "name": "Parkway South",
+    "location": "Manchester",
+    "yearFounded": "1976",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "PSH",
+    "index": 102
+    },
+    {
+    "name": "Parkway West",
+    "location": "Ballwin",
+    "yearFounded": "1968",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "PWH",
+    "index": 103
+    },
+    {
+    "name": "Pattonville",
+    "location": "Maryland Heights",
+    "yearFounded": "1933",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "PAT",
+    "index": 104
+    },
+    {
+    "name": "Perryville",
+    "location": "Perryville",
+    "yearFounded": "1865",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "PVH",
+    "index": 105
+    },
+    {
+    "name": "Piasa Southwestern",
+    "location": "Piasa",
+    "yearFounded": "",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "PSW",
+    "index": 106
+    },
+    {
+    "name": "Principia",
+    "location": "Town and Country",
+    "yearFounded": "1898",
+    "state": "MO",
+    "schoolSuffix": "school",
+    "schoolAbbr": "PRIN",
+    "index": 107
+    },
+    {
+    "name": "Priory",
+    "location": "St. Louis",
+    "yearFounded": "1956",
+    "state": "MO",
+    "schoolSuffix": "school",
+    "schoolAbbr": "PRI",
+    "index": 108
+    },
+    {
+    "name": "Red Bud",
+    "location": "Red Bud",
+    "yearFounded": "",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "RBH",
+    "index": 109
+    },
+    {
+    "name": "Ritenour",
+    "location": "St. Louis",
+    "yearFounded": "1911",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "RIT",
+    "index": 110
+    },
+    {
+    "name": "Riverview Gardens",
+    "location": "St. Louis",
+    "yearFounded": "",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "RVG",
+    "index": 111
+    },
+    {
+    "name": "Roosevelt",
+    "location": "St. Louis",
+    "yearFounded": "1925",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "ROOS",
+    "index": 112
+    },
+    {
+    "name": "Rosati-Kain",
+    "location": "St. Louis",
+    "yearFounded": "1911",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "RK",
+    "index": 113
+    },
+    {
+    "name": "Roxana",
+    "location": "Roxana",
+    "yearFounded": "1941",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "ROX",
+    "index": 114
+    },
+    {
+    "name": "Seckman",
+    "location": "Imperial",
+    "yearFounded": "1997",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SEC",
+    "index": 115
+    },
+    {
+    "name": "SLUH",
+    "location": "St. Louis",
+    "yearFounded": "1818",
+    "state": "MO",
+    "schoolSuffix": "none",
+    "schoolAbbr": "SLUH",
+    "index": 116
+    },
+    {
+    "name": "Soldan",
+    "location": "St. Louis",
+    "yearFounded": "1909",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SOL",
+    "index": 117
+    },
+    {
+    "name": "St. Charles",
+    "location": "St. Charles",
+    "yearFounded": "1899",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SCHS",
+    "index": 118
+    },
+    {
+    "name": "St. Charles West",
+    "location": "St. Charles",
+    "yearFounded": "1976",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SCW",
+    "index": 119
+    },
+    {
+    "name": "St. Clair",
+    "location": "St. Clair",
+    "yearFounded": "",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SCL",
+    "index": 120
+    },
+    {
+    "name": "St. Dominic",
+    "location": "O'Fallon",
+    "yearFounded": "1962",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "STDOM",
+    "index": 121
+    },
+    {
+    "name": "St. James",
+    "location": "St. James",
+    "yearFounded": "1940",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SJH",
+    "index": 122
+    },
+    {
+    "name": "St. Joseph's",
+    "location": "St. Louis",
+    "yearFounded": "1840",
+    "state": "MO",
+    "schoolSuffix": "academy",
+    "schoolAbbr": "SJA",
+    "index": 123
+    },
+    {
+    "name": "St. Mary's",
+    "location": "St. Louis",
+    "yearFounded": "1931",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SMH",
+    "index": 124
+    },
+    {
+    "name": "St. Pius X",
+    "location": "Crystal City",
+    "yearFounded": "1959",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SPX",
+    "index": 125
+    },
+    {
+    "name": "St. Vincent",
+    "location": "Perryville",
+    "yearFounded": "1896",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SVH",
+    "index": 126
+    },
+    {
+    "name": "Staunton",
+    "location": "Staunton",
+    "yearFounded": "",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "STA",
+    "index": 127
+    },
+    {
+    "name": "Steelville",
+    "location": "Steelville",
+    "yearFounded": "1886",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "STE",
+    "index": 128
+    },
+    {
+    "name": "Sullivan",
+    "location": "Sullivan",
+    "yearFounded": "1883",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SUL",
+    "index": 129
+    },
+    {
+    "name": "Summit",
+    "location": "Fenton",
+    "yearFounded": "1993",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SUM",
+    "index": 130
+    },
+    {
+    "name": "Sumner",
+    "location": "St. Louis",
+    "yearFounded": "1875",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "SUMN",
+    "index": 131
+    },
+    {
+    "name": "Timberland",
+    "location": "Wentzville",
+    "yearFounded": "2002",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "TMB",
+    "index": 132
+    },
+    {
+    "name": "Triad",
+    "location": "Troy",
+    "yearFounded": "1999",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "TRI",
+    "index": 133
+    },
+    {
+    "name": "Trinity Catholic",
+    "location": "St. Louis",
+    "yearFounded": "2003",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "TRN",
+    "index": 134
+    },
+    {
+    "name": "Troy Buchanan",
+    "location": "Troy",
+    "yearFounded": "1914",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "TBH",
+    "index": 135
+    },
+    {
+    "name": "Union",
+    "location": "Union",
+    "yearFounded": "1835",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "UNH",
+    "index": 136
+    },
+    {
+    "name": "University City",
+    "location": "University City",
+    "yearFounded": "1930",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "UCITY",
+    "index": 137
+    },
+    {
+    "name": "Ursuline",
+    "location": "St. Louis",
+    "yearFounded": "1848",
+    "state": "MO",
+    "schoolSuffix": "academy",
+    "schoolAbbr": "URS",
+    "index": 138
+    },
+    {
+    "name": "Valley Park",
+    "location": "Valley Park",
+    "yearFounded": "1948",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "VPK",
+    "index": 139
+    },
+    {
+    "name": "Valmeyer",
+    "location": "Valmeyer",
+    "yearFounded": "",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "VAL",
+    "index": 140
+    },
+    {
+    "name": "Vashon",
+    "location": "St. Louis",
+    "yearFounded": "1927",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "VSH",
+    "index": 141
+    },
+    {
+    "name": "Veritas Christian",
+    "location": "O'fallon",
+    "yearFounded": "1980",
+    "state": "MO",
+    "schoolSuffix": "academy",
+    "schoolAbbr": "VCA",
+    "index": 142
+    },
+    {
+    "name": "Vianney",
+    "location": "St. Louis",
+    "yearFounded": "1960",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "VIA",
+    "index": 143
+    },
+    {
+    "name": "Villa Duchesne",
+    "location": "St. Louis",
+    "yearFounded": "1929",
+    "state": "MO",
+    "schoolSuffix": "none",
+    "schoolAbbr": "VD",
+    "index": 144
+    },
+    {
+    "name": "Visitation",
+    "location": "St. Louis",
+    "yearFounded": "1833",
+    "state": "MO",
+    "schoolSuffix": "academy",
+    "schoolAbbr": "VIS",
+    "index": 145
+    },
+    {
+    "name": "Warrenton",
+    "location": "Warrenton",
+    "yearFounded": "1906",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "WAR",
+    "index": 146
+    },
+    {
+    "name": "Washington",
+    "location": "Washington",
+    "yearFounded": "1900",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "WASH",
+    "index": 147
+    },
+    {
+    "name": "Waterloo",
+    "location": "Waterloo",
+    "yearFounded": "1895",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "WAT",
+    "index": 148
+    },
+    {
+    "name": "Webster Groves",
+    "location": "Webster Groves",
+    "yearFounded": "1889",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "WEB",
+    "index": 149
+    },
+    {
+    "name": "Wesclin",
+    "location": "Trenton",
+    "yearFounded": "2014",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "WES",
+    "index": 150
+    },
+    {
+    "name": "Westminster Christian",
+    "location": "Town and Country",
+    "yearFounded": "1976",
+    "state": "MO",
+    "schoolSuffix": "academy",
+    "schoolAbbr": "WCA",
+    "index": 151
+    },
+    {
+    "name": "Whitfield",
+    "location": "St. Louis",
+    "yearFounded": "1952",
+    "state": "MO",
+    "schoolSuffix": "school",
+    "schoolAbbr": "WHIT",
+    "index": 152
+    },
+    {
+    "name": "Windsor",
+    "location": "Imperial",
+    "yearFounded": "1922",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "WIN",
+    "index": 153
+    },
+    {
+    "name": "Winfield",
+    "location": "Winfield",
+    "yearFounded": "",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "WINF",
+    "index": 154
+    },
+    {
+    "name": "Wood River",
+    "location": "Wood River",
+    "yearFounded": "1919",
+    "state": "IL",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "WRH",
+    "index": 155
+    },
+    {
+    "name": "Wright City",
+    "location": "Wright City",
+    "yearFounded": "1922",
+    "state": "MO",
+    "schoolSuffix": "highSchool",
+    "schoolAbbr": "WC",
+    "index": 156
+    }
+        
+    
+
+
+]
