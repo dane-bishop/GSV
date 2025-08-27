@@ -163,11 +163,13 @@ final class APIClient {
     }
 
     // NEW schedule-based stats (your code looked good — just switch to sendWithRetry)
-    func fetchPlayerStatsBySchedule(scheduleId: Int,
-                                    limit: Int = 200,
-                                    offset: Int = 0,
-                                    sort: String = "player_id",
-                                    order: String = "asc") async throws -> Paged<GSVPlayerStat> {
+    func fetchPlayerStatsBySchedule(
+        scheduleId: Int,
+        limit: Int = 200,
+        offset: Int = 0,
+        sort: String = "player_id",
+        order: String = "asc"
+    ) async throws -> PlayerStatsByScheduleResponse {
         let path = "api/v1/games/\(scheduleId)/player-stats"
         let qs: [URLQueryItem] = [
             .init(name: "limit", value: String(limit)),
@@ -177,7 +179,61 @@ final class APIClient {
         ]
         let req = try request(path, query: qs)
         let (data, _) = try await sendWithRetry(req)
-        return try JSONDecoder().decode(Paged<GSVPlayerStat>.self, from: data)
+
+        // First try strict decode
+        do {
+            let dec = JSONDecoder()
+            return try dec.decode(PlayerStatsByScheduleResponse.self, from: data)
+        } catch {
+            #if DEBUG
+            let preview = String(data: data.prefix(800), encoding: .utf8) ?? ""
+            debugPrint("[API] decode fallback \(path) first 800 chars:\n", preview)
+            #endif
+
+            // Fallback: decode the old/loose shape
+            let dec = JSONDecoder()
+            let loose = try dec.decode(LooseEnvelope.self, from: data)
+
+            let looseItems: [LooseStat] = loose.items ?? []
+            let items: [GSVPlayerStat] = looseItems.map { ls in
+                let normalizedDate = ls.game_date.map(GSVPlayerStat.normalizeDateString)
+                return GSVPlayerStat(
+                    id: ls.id ?? -1,
+                    playerId: ls.player_id ?? -1,
+                    statType: ls.stat_type,
+                    statValue: ls.stat_value,
+                    statCategory: ls.stat_category,
+                    gameDate: normalizedDate,
+                    gameId: ls.game_id,
+                    playerName: ls.player_name,
+                    teamName: ls.team_name,
+                    playerExternalId: ls.player_external_id
+                )
+            }
+
+            let game: PlayerStatsByScheduleResponse.Game? = loose.game.map {
+                PlayerStatsByScheduleResponse.Game(
+                    scheduleId: $0.schedule_id,
+                    date: $0.date,
+                    sport: $0.sport,
+                    location: $0.location,
+                    schoolId: $0.school_id,
+                    opponent: $0.opponent,
+                    score: $0.score,
+                    result: $0.result,
+                    homeExternalId: $0.home_external_id,
+                    awayExternalId: $0.away_external_id
+                )
+            }
+
+            return PlayerStatsByScheduleResponse(
+                total: loose.total ?? items.count,
+                limit: loose.limit ?? items.count,
+                offset: loose.offset ?? 0,
+                items: items,
+                game: game
+            )
+        }
     }
 
     // MARK: Schools
@@ -249,4 +305,38 @@ extension APIClient {
     }
 }
 
+// VERY tolerant stat for fallback parse
+private struct LooseStat: Decodable {
+    let id: Int?
+    let player_id: Int?
+    let stat_type: String?
+    let stat_value: Double?
+    let stat_category: String?
+    let game_date: String?
+    let game_id: Int?
+    let player_name: String?
+    let team_name: String?
+    let player_external_id: Int?
+}
+
+private struct LooseGame: Decodable {
+    let schedule_id: Int?
+    let date: String?
+    let sport: String?
+    let location: String?
+    let school_id: Int?
+    let opponent: String?
+    let score: String?
+    let result: String?
+    let home_external_id: Int?
+    let away_external_id: Int?
+}
+
+private struct LooseEnvelope: Decodable {
+    let total: Int?
+    let limit: Int?
+    let offset: Int?
+    let items: [LooseStat]?
+    let game: LooseGame?
+}
 

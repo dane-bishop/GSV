@@ -24,39 +24,64 @@ struct GSVGameDetailView: View {
             if let err = vm.errorText {
                 Text("Error: \(err)").foregroundStyle(.red)
             }
-            if vm.stats.isEmpty {
-                ContentUnavailableView("No player stats", systemImage: "person.crop.circle.badge.questionmark")
-            } else {
-                ForEach(vm.stats) { s in
-                    HStack(alignment: .firstTextBaseline) {
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text(s.playerName ?? "Player")
-                                .font(.headline)
-                            HStack(spacing: 8) {
-                                Text(s.stat_type ?? "Stat")
-                                if let cat = s.stat_category, !cat.isEmpty {
-                                    Text("· \(cat)").foregroundStyle(.secondary)
-                                }
-                            }
-                            .font(.subheadline)
-                        }
-                        Spacer()
-                        VStack(alignment: .trailing, spacing: 2) {
-                            Text(s.stat_value.map { String($0) } ?? "-")
-                                .font(.title3).monospacedDigit()
-                            Text(s.game_date ?? "")
-                                .font(.caption).foregroundStyle(.secondary)
-                        }
-                    }
+
+            if let _ = vm.header {
+                Section {
+                    VStack(alignment: .leading, spacing: 4) {
+                        //Text(vm.headerLine()).font(.headline)
+                        //Text(vm.subHeader()).font(.caption).foregroundStyle(.secondary)
+                    }.padding(.vertical, 4)
                 }
-                .onAppear {
-                    if vm.stats.count >= 20 { Task { await vm.loadMore() } }
+            }
+
+            Section("Away team") {
+                if vm.awayStats.isEmpty { Text("No stats") }
+                ForEach(vm.awayStats) { StatRow(s: $0) }
+            }
+
+            Section("Home team") {
+                if vm.homeStats.isEmpty { Text("No stats") }
+                ForEach(vm.homeStats) { StatRow(s: $0) }
+            }
+
+            if !vm.unknownStats.isEmpty {
+                Section("Unclassified") {
+                    ForEach(vm.unknownStats) { StatRow(s: $0) }
                 }
+            }
+
+            if (vm.awayStats.count + vm.homeStats.count + vm.unknownStats.count) < vm.total {
+                HStack { Spacer(); ProgressView(); Spacer() }
+                    .onAppear { Task { await vm.loadMore() } }
             }
         }
         .navigationTitle(titleText)
         .navigationBarTitleDisplayMode(.inline)
         .task { await vm.reload() }
         .refreshable { await vm.reload() }
+    }
+}
+
+private struct StatRow: View {
+    let s: GSVPlayerStat
+    var body: some View {
+        HStack(alignment: .firstTextBaseline) {
+            VStack(alignment: .leading, spacing: 2) {
+                Text(s.playerName ?? "Player").font(.headline)
+                HStack(spacing: 8) {
+                    Text(s.statType ?? "Stat")
+                    if let cat = s.statCategory, !cat.isEmpty {
+                        Text("· \(cat)").foregroundStyle(.secondary)
+                    }
+                }.font(.subheadline)
+            }
+            Spacer()
+            VStack(alignment: .trailing, spacing: 2) {
+                Text(s.statValue.map { String($0) } ?? "-")
+                    .font(.title3).monospacedDigit()
+                Text(s.gameDate ?? "")
+                    .font(.caption).foregroundStyle(.secondary)
+            }
+        }
     }
 }
